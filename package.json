@@ -1,0 +1,15 @@
+{
+  "name": "portfolio-tailwindcss",
+  "version": "1.0.0",
+  "description": "Website Portfolio Tailwind CSS",
+  "main": "index.js",
+  "scripts": {
+    "start": "yarn tailwindcss -i ./src/styles.css -o ./public/css/main.css --watch"
+  },
+  "repository": "https://github.com/ilhamjkid/portfolio-tailwindcss.git",
+  "author": "ilhamjkid <ilhamjkid1724@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}
